@@ -5520,6 +5520,7 @@ void AddSC_generic_spell_scripts()
     RegisterSpellScriptWithArgs(spell_gen_mount, "spell_magic_broom", 0, SPELL_MAGIC_BROOM_60, SPELL_MAGIC_BROOM_100, SPELL_MAGIC_BROOM_150, SPELL_MAGIC_BROOM_280, 0);
     RegisterSpellScriptWithArgs(spell_gen_mount, "spell_headless_horseman_mount", 0, SPELL_HEADLESS_HORSEMAN_MOUNT_60, SPELL_HEADLESS_HORSEMAN_MOUNT_100, SPELL_HEADLESS_HORSEMAN_MOUNT_150, SPELL_HEADLESS_HORSEMAN_MOUNT_280, 0);
     RegisterSpellScriptWithArgs(spell_gen_mount, "spell_winged_steed_of_the_ebon_blade", 0, 0, 0, SPELL_WINGED_STEED_150, SPELL_WINGED_STEED_280, 0);
+    RegisterSpellScriptWithArgs(spell_gen_mount, "spell_x-53", 95105, 95029, 95026, 95027, 95028, 0);
     RegisterSpellScriptWithArgs(spell_gen_mount, "spell_big_love_rocket", SPELL_BIG_LOVE_ROCKET_0, SPELL_BIG_LOVE_ROCKET_60, SPELL_BIG_LOVE_ROCKET_100, SPELL_BIG_LOVE_ROCKET_150, SPELL_BIG_LOVE_ROCKET_310, 0);
     RegisterSpellScriptWithArgs(spell_gen_mount, "spell_invincible", 0, SPELL_INVINCIBLE_60, SPELL_INVINCIBLE_100, SPELL_INVINCIBLE_150, SPELL_INVINCIBLE_310, 0);
     RegisterSpellScriptWithArgs(spell_gen_mount, "spell_blazing_hippogryph", 0, 0, 0, SPELL_BLAZING_HIPPOGRYPH_150, SPELL_BLAZING_HIPPOGRYPH_280, 0);

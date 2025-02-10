@@ -3713,8 +3713,8 @@ SpellCastResult Spell::prepare(SpellCastTargets const* targets, AuraEffect const
         if (!m_casttime && /*!m_castItemGUID &&*/ GetCurrentContainer() == CURRENT_GENERIC_SPELL)
             cast(true);
 
-        if (!HasTriggeredCastFlag(TRIGGERED_IGNORE_GCD))
-            TriggerGlobalCooldown();
+        //if (!HasTriggeredCastFlag(TRIGGERED_IGNORE_GCD))
+        //    TriggerGlobalCooldown();
     }
 
     sScriptMgr->OnSpellPrepare(this, m_caster, m_spellInfo);

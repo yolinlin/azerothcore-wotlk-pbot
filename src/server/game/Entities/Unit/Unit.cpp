@@ -7085,6 +7085,24 @@ bool Unit::HandleDummyAuraProc(Unit* victim, uint32 damage, AuraEffect* triggere
                             }
                             return true;
                         }
+                    case 95066:
+                    {
+                        if (Unit* caster = triggeredByAura->GetCaster())
+                        {
+                            int32 dmg = 0.2 * damage;
+                            caster->CastCustomSpell(caster, 99963, &dmg, 0, 0, true);
+                        }
+                        return true;
+                    }
+                    case 95015:
+                    {
+                        if (Unit* caster = triggeredByAura->GetCaster())
+                        {
+                            int32 dmg = 0.2 * damage;
+                            caster->CastCustomSpell(caster, 99964, &dmg, 0, 0, true);
+                        }
+                        return true;
+                    }
                     // Item: Purified Shard of the Gods
                     case 69755:
                         {
